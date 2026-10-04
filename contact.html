@@ -20,6 +20,27 @@
   <main>
     <h2>Contact Me</h2>
     <p>Send me your questions, comments, and project queries.</p>
+    <form action="#" method="post">
+      <p>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="60">
+      </p>
+      <p>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="phone">Cell number (example: 905-555-0123)</label><br>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Enter a phone number like 905-555-0123">
+      </p>
+      <p>
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments" rows="6" cols="40" required minlength="10" maxlength="500"></textarea>
+      </p>
+      <p>
+        <button type="submit">Send message</button>
+      </p>
+    </form>
   </main>
   <footer>
     <p>&copy; 2026 Ilham</p>
