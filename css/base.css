@@ -3,11 +3,12 @@
 /* Colour variables. Replace these later with your Adobe Color palette. */
 :root {
   --dark: #14213d;
-  --mid: #2f4a6d;
-  --accent: #f2a93b;
-  --light: #eef1f5;
+  --mid: #10288c;
+  --accent: #ffe8f0;
+  --light: #cbe2fe;
   --white: #ffffff;
-  --text: #0d1321;
+  --text: #14213d;
+  --purple: #4b0090;
 }
 
 /* border-box makes widths include padding, which keeps fluid layouts predictable */
