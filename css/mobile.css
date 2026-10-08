@@ -1,0 +1,11 @@
+/* mobile.css - default styles for phones (under 768px wide). Loads on every screen size. */
+
+/* Each project box takes the full width, so they stack in one column */
+article {
+  width: 100%;
+}
+
+/* Smaller heading so it fits on a narrow screen */
+header h1 {
+  font-size: 1.6rem;
+}

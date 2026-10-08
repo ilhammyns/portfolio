@@ -1,0 +1,26 @@
+/* laptop.css - loads only at 1024px wide and up. Three project boxes per row, using floats (no flexbox). */
+
+/* First undo the two-column rules from tablet.css */
+article:nth-of-type(odd),
+article:nth-of-type(even) {
+  margin-right: 3%;
+  clear: none;
+}
+
+/* Three boxes of 31.33% plus two 3% gaps fill the full row */
+article {
+  width: 31.33%;
+}
+
+/* Boxes 1, 4, 7 start a new row; boxes 3, 6, 9 have no right gap */
+article:nth-of-type(3n+1) {
+  clear: left;
+}
+
+article:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}

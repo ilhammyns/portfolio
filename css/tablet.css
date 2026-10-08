@@ -1,0 +1,16 @@
+/* tablet.css - loads only at 768px wide and up. Two project boxes per row, using floats (no flexbox). */
+
+article {
+  width: 48%;
+  float: left;
+}
+
+/* Odd boxes start a new row on the left, with a 4% gap before the next box */
+article:nth-of-type(odd) {
+  margin-right: 4%;
+  clear: left;
+}
+
+header h1 {
+  font-size: 2rem;
+}
