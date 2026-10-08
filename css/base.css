@@ -73,11 +73,18 @@ main::after {
   clear: both;
 }
 
+/* Project boxes: white card with a purple stripe (--purple from the Adobe palette) */
 article {
   background: var(--white);
-  border-left: 6px solid var(--accent);
+  border-left: 6px solid var(--purple);
   padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
+}
+
+/* Headings inside the page use the purple accent. It has strong contrast on the light blue background. */
+h2,
+h3 {
+  color: var(--purple);
 }
 
 /* Contact form fields */
