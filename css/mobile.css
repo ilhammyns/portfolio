@@ -1,4 +1,4 @@
-/* mobile.css - default styles for phones (under 768px wide). Loads on every screen size. */
+/* mobile.css - phones, 480px wide and under. Loaded only for that range (see the media attribute on the link tag). */
 
 /* Each project box takes the full width, so they stack in one column */
 article {

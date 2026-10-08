@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Me | Ilham</title>
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/mobile.css">
-  <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
-  <link rel="stylesheet" href="css/laptop.css" media="(min-width: 1024px)">
+  <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 480px)">
+  <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
+  <link rel="stylesheet" href="css/laptop.css" media="only screen and (min-width: 960px)">
 </head>
 <body>
   <header>
@@ -39,16 +39,4 @@
       </p>
       <p>
         <label for="comments">Comments</label><br>
-        <textarea id="comments" name="comments" rows="6" cols="40" required minlength="10" maxlength="500"></textarea>
-      </p>
-      <p>
-        <button type="submit">Send message</button>
-      </p>
-    </form>
-  </main>
-  <footer>
-    <p>&copy; 2026 Ilham</p>
-    <p>Contact: <a href="mailto:ilhamfatin.yunus@ontariotechu.net">ilhamfatin.yunus@ontariotechu.net</a></p>
-  </footer>
-</body>
-</html>
+        <textarea id="comments" name="comments" rows="6" cols="40" required
